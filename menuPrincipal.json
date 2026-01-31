@@ -1,0 +1,15 @@
+{
+  "productos": [
+    { "nombre": "Almuerzo Economico", "precio": 90, "categoria": "Comidas" },
+    { "nombre": "Tacos 2 Uni.", "precio": 110, "categoria": "Comidas" },
+    { "nombre": "Pollo Con tajadas.", "precio": 100, "categoria": "Comidas" },
+
+    { "nombre": "Refresco Natural", "precio": 35, "categoria": "Bebidas" },
+    { "nombre": "Gaseosa", "precio": 30, "categoria": "Bebidas" },
+    { "nombre": "Agua", "precio": 20, "categoria": "Bebidas" },
+
+    { "nombre": "Tres Leches", "precio": 40, "categoria": "Postres" },
+    { "nombre": "Flan", "precio": 45, "categoria": "Postres" },
+    { "nombre": "Cheesecake", "precio": 50, "categoria": "Postres" }
+  ]
+}

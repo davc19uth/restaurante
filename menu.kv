@@ -1,0 +1,89 @@
+ScreenManager:
+    InicioScreen:
+    CategoriasScreen:
+    ProductosScreen:
+
+
+<InicioScreen>:
+    name: "inicio"
+
+    BoxLayout:
+        orientation: "vertical"
+        padding: 20
+        spacing: 20
+
+        Label:
+            text: "🍽️ Burritas Nina"
+            font_size: "28sp"
+
+        Button:
+            text: "Ver menú"
+            size_hint_y: None
+            height: 50
+            on_press: app.root.current = "categorias"
+
+
+<CategoriasScreen>:
+    name: "categorias"
+
+    BoxLayout:
+        orientation: "vertical"
+        padding: 20
+        spacing: 15
+
+        Label:
+            text: "Categorías"
+            font_size: "24sp"
+
+        Button:
+            text: "Comidas"
+            on_press:
+                app.root.current = "productos"
+                app.root.get_screen("productos").mostrar_productos("Comidas")
+
+        Button:
+            text: "Bebidas"
+            on_press:
+                app.root.current = "productos"
+                app.root.get_screen("productos").mostrar_productos("Bebidas")
+
+        Button:
+            text: "Postres"
+            on_press:
+                app.root.current = "productos"
+                app.root.get_screen("productos").mostrar_productos("Postres")
+
+        Button:
+            text: "Volver"
+            size_hint_y: None
+            height: 45
+            on_press: app.root.current = "inicio"
+
+
+<ProductosScreen>:
+    name: "productos"
+
+    BoxLayout:
+        orientation: "vertical"
+        padding: 20
+        spacing: 10
+
+        Label:
+            text: "Productos"
+            font_size: "24sp"
+            size_hint_y: None
+            height: 40
+
+        ScrollView:
+            BoxLayout:
+                id: contenedor
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+                spacing: 10
+
+        Button:
+            text: "Volver a categorías"
+            size_hint_y: None
+            height: 45
+            on_press: app.root.current = "categorias"
