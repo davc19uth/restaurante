@@ -1,3 +1,5 @@
+#:kivy 2.3.1
+
 ScreenManager:
     InicioScreen:
     CategoriasScreen:
@@ -12,14 +14,18 @@ ScreenManager:
         padding: 20
         spacing: 20
 
+        Image:
+            source: "assets/LogoGrande.jpg"
+            size_hint_y: 1.5
+
         Label:
-            text: "Burritas Nina"
-            font_size: "28sp"
+            text: "Burritas Nina's"
+            font_size: "50sp"
 
         Button:
-            text: "Ver menú"
+            text: "Ver Menú"
             size_hint_y: None
-            height: 50
+            height: 100
             on_press: app.root.current = "categorias"
 
 
@@ -31,6 +37,12 @@ ScreenManager:
         padding: 20
         spacing: 15
 
+        Image:
+            source: "assets/LogoPeque.jpg"
+            size_hint_y: None
+            height: 80
+            allow_stretch: True
+            keep_ratio: True
         Label:
             text: "Categorías"
             font_size: "24sp"
@@ -56,7 +68,7 @@ ScreenManager:
         Button:
             text: "Volver"
             size_hint_y: None
-            height: 45
+            height: 75
             on_press: app.root.current = "inicio"
 
 
@@ -67,6 +79,13 @@ ScreenManager:
         orientation: "vertical"
         padding: 20
         spacing: 10
+
+        Image:
+            source: "assets/LogoPeque.jpg"
+            size_hint_y: None
+            height: 80
+            allow_stretch: True
+            keep_ratio: True
 
         Label:
             text: "Productos"
@@ -85,5 +104,5 @@ ScreenManager:
         Button:
             text: "Volver a categorías"
             size_hint_y: None
-            height: 45
+            height: 75
             on_press: app.root.current = "categorias"
