@@ -1,24 +1,24 @@
 {
   "productos": [
-    { "nombre": "Almuerzo Economico", "precio": 90.00, "categoria": "Comidas" },
-    { "nombre": "Tacos 2 Uni.", "precio": 110.00, "categoria": "Comidas" },
-    { "nombre": "Pollo Con tajadas.", "precio": 100.00, "categoria": "Comidas" },
-    { "nombre": "Desayuno Economico.", "precio": 80.00, "categoria": "Comidas" },
-    { "nombre": "Burritas.", "precio": 50.00, "categoria": "Comidas" },
-    { "nombre": "Baleadas.", "precio": 30.00, "categoria": "Comidas" },
+    { "nombre": "Baleadas + 1 Complemento.", "precio": 30, "categoria": "Comidas" },
+    { "nombre": "Burritas Tortilla Maiz.", "precio": 50, "categoria": "Comidas" },
+    { "nombre": "Desayuno Catracho.", "precio": 80, "categoria": "Comidas" },
+    { "nombre": "Almuerzo Carne + 3 Complementos", "precio": 90, "categoria": "Comidas" },
+    { "nombre": "Tacos Flauta Orden 2 Unidades", "precio": 95, "categoria": "Comidas" },
+    { "nombre": "Pollo Con tajadas.", "precio": 110, "categoria": "Comidas" },
 
-    { "nombre": "Refresco Natural", "precio": 35.00, "categoria": "Bebidas" },
-    { "nombre": "Gaseosa", "precio": 30.00, "categoria": "Bebidas" },
-    { "nombre": "Cafe", "precio": 15.00, "categoria": "Bebidas" },
-    { "nombre": "Cafe con Leche", "precio": 30.00, "categoria": "Bebidas" },
-    { "nombre": "Jugos Sula", "precio": 25.00, "categoria": "Bebidas" },
-    { "nombre": "Agua", "precio": 20.00, "categoria": "Bebidas" },
+    { "nombre": "Cafe", "precio": 15, "categoria": "Bebidas" },
+    { "nombre": "Te", "precio": 40, "categoria": "Bebidas" },
+    { "nombre": "Chocolate", "precio": 45, "categoria": "Bebidas" },
+    { "nombre": "Agua", "precio": 20, "categoria": "Bebidas" },
+    { "nombre": "Gaseosa", "precio": 30, "categoria": "Bebidas" },
+    { "nombre": "Refresco Natural", "precio": 35, "categoria": "Bebidas" },
 
-    { "nombre": "Tres Leches", "precio": 40.00, "categoria": "Postres" },
-    { "nombre": "Flan", "precio": 45.00, "categoria": "Postres" },
-    { "nombre": "Cheesecake", "precio": 55.00, "categoria": "Postres" },
-    { "nombre": "Pai de Limon", "precio": 50.00, "categoria": "Postres" },
-    { "nombre": "Pastel", "precio": 35.00, "categoria": "Postres" },
-    { "nombre": "Tarta de Manzana", "precio": 60.00, "categoria": "Postres" }
+    { "nombre": "Pastel", "precio": 35, "categoria": "Postres" },
+    { "nombre": "Tres Leches", "precio": 40, "categoria": "Postres" },
+    { "nombre": "Flan", "precio": 45, "categoria": "Postres" },
+    { "nombre": "Ice Cream", "precio": 50, "categoria": "Postres" },
+    { "nombre": "Cheesecake", "precio": 55, "categoria": "Postres" },
+    { "nombre": "Tiramisú", "precio": 60, "categoria": "Postres" }
   ]
 }
